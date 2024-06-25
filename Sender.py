@@ -19,7 +19,7 @@ message = ''' ENTER YOUR CUSTOM MESSAGE '''
 # Function to send photo
 def send_photo(phone, photo_path, caption):
     try:
-        kit.sendwhats_image(phone,photo_path, message, 10)
+        kit.sendwhats_image(phone,photo_path, message, 15)
         print(f"Photo sent to {phone}")
     except Exception as e:
         print(f"Failed to send photo to {phone}: {e}")
@@ -40,7 +40,7 @@ def send_message(phone, message):
 for phone in phone_numbers:
     #sending message with the photo(not seperate)
     send_photo(phone, photo_path, caption="")
-    time.sleep(5)  # Wait before scheduling the message to ensure the photo is sent
+    time.sleep(10)  # Wait before scheduling the message to ensure the photo is sent
     #use this if you want to send message after sending photo
     #send_message(phone, message)
     #time.sleep(60)  # Wait to avoid sending messages at the exact same time

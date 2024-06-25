@@ -3,6 +3,8 @@
 Automate sending messages via WhatsApp Web! This tool allows you to send WhatsApp messages in bulk. It reads a list of numbers from numbers.txt and sends a defined message and image to each number.
 This program is created with the help of PywhatKit Module
 
+NOTE : Only Working In Windows
+
 ## Features
 
 - Send both image and text messages.
@@ -30,6 +32,10 @@ This program is created with the help of PywhatKit Module
 ## Files Required
 
 - *numbers.txt*: A text file containing phone numbers.
+    for example :- 98XXXXXXXX
+                   78XXXXXXXX
+                   87XXXXXXXX
+    phone_numbers in txt file should be in this format
 
 ## Customization
 
