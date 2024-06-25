@@ -32,6 +32,7 @@ NOTE : Only Working In Windows
 ## Files Required
 
 - *numbers.txt*: A text file containing phone numbers.
+- 
     for example :- 98XXXXXXXX
                    78XXXXXXXX
                    87XXXXXXXX
