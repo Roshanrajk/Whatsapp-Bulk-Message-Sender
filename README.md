@@ -13,6 +13,7 @@ This program is created with the help of PywhatKit Module
 1. *Install Python*: Make sure Python is installed on your machine.
 2. *Install required packages*: Run the following commands to install necessary libraries.
 3. RUN 'pip install selenium'
+4. RUN 'pip install pywin32'
 4. RUN 'pip install webdriver-manager'
 5. RUN 'pip install pywhatkit'
 	
