@@ -27,7 +27,10 @@ NOTE : Only Working In Windows
 ## Files Required
 
 - *numbers.txt*: A text file containing phone numbers.
-- numbers should be in the form of horizontal list
+    for example :- 98XXXXXXXX
+                   78XXXXXXXX
+                   87XXXXXXXX
+    phone_numbers in txt file should be in this format
 
 ## Contributions
 
